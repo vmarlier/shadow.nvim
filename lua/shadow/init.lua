@@ -280,6 +280,22 @@ local highlights = {
 	OilDir = { fg = colors.blue.gui, ctermfg = colors.blue.cterm }, -- Directory names
 	OilFile = { fg = colors.fg.gui, ctermfg = colors.fg.cterm }, -- File names
 	OilLink = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm }, -- Symbolic links
+
+	-- akinsho/bufferline.nvim
+	BufferLineFill = { bg = colors.bg.gui, ctermbg = colors.bg.cterm },
+	BufferLineBackground = { fg = colors.fg.gui, bg = colors.black.gui, ctermfg = colors.fg.cterm, ctermbg = colors.black.cterm },
+	BufferLineBufferVisible = { fg = colors.fg.gui, bg = colors.bg.gui, ctermfg = colors.fg.cterm, ctermbg = colors.bg.cterm },
+	BufferLineBufferSelected = { fg = colors.fg.gui, bg = colors.black_bright.gui, ctermfg = colors.fg.cterm, ctermbg = colors.black_bright.cterm, bold = true },
+	BufferLineTab = { fg = colors.fg.gui, bg = colors.black.gui, ctermfg = colors.fg.cterm, ctermbg = colors.black.cterm },
+	BufferLineTabSelected = { fg = colors.fg.gui, bg = colors.bg.gui, ctermfg = colors.fg.cterm, ctermbg = colors.bg.cterm },
+	BufferLineTabClose = { fg = colors.red.gui, bg = colors.black.gui, ctermfg = colors.red.cterm, ctermbg = colors.black.cterm },
+	BufferLineIndicatorSelected = { fg = colors.blue.gui, bg = colors.bg.gui, ctermfg = colors.blue.cterm, ctermbg = colors.bg.cterm },
+	BufferLineSeparator = { fg = colors.bg.gui, bg = colors.black.gui, ctermfg = colors.bg.cterm, ctermbg = colors.black.cterm },
+	BufferLineSeparatorSelected = { fg = colors.bg.gui, bg = colors.bg.gui, ctermfg = colors.bg.cterm, ctermbg = colors.bg.cterm },
+	BufferLineSeparatorVisible = { fg = colors.bg.gui, bg = colors.bg.gui, ctermfg = colors.bg.cterm, ctermbg = colors.bg.cterm },
+	BufferLineCloseButton = { fg = colors.red.gui, bg = colors.black.gui, ctermfg = colors.red.cterm, ctermbg = colors.black.cterm },
+	BufferLineCloseButtonSelected = { fg = colors.red.gui, bg = colors.black_bright.gui, ctermfg = colors.red.cterm, ctermbg = colors.black_bright.cterm },
+	BufferLineCloseButtonVisible = { fg = colors.red.gui, bg = colors.bg.gui, ctermfg = colors.red.cterm, ctermbg = colors.bg.cterm },
 }
 
 M.colors = colors
