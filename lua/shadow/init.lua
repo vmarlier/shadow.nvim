@@ -300,6 +300,14 @@ local highlights = {
 	NvimTreeRootFolder = { fg = colors.red.gui, ctermfg = colors.red.cterm },
 	NvimTreeSymlink = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm },
 	NvimTreeStatuslineNc = { fg = colors.black_bright.gui, bg = colors.bg.gui, ctermfg = colors.black_bright.cterm, ctermbg = colors.bg.cterm },
+
+	-- which-key.nvim
+	WhichKey = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm },
+	WhichKeySeparator = { fg = colors.black_bright.gui, ctermfg = colors.black_bright.cterm },
+	WhichKeyGroup = { fg = colors.blue.gui, ctermfg = colors.blue.cterm },
+	WhichKeyDesc = { fg = colors.green.gui, ctermfg = colors.green.cterm },
+	WhichKeyFloat = { bg = colors.black.gui, ctermbg = colors.black.cterm },
+	WhichKeyValue = { fg = colors.magenta.gui, ctermfg = colors.magenta.cterm },
 }
 
 M.colors = colors
