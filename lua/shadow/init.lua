@@ -280,6 +280,15 @@ local highlights = {
 	OilDir = { fg = colors.blue.gui, ctermfg = colors.blue.cterm }, -- Directory names
 	OilFile = { fg = colors.fg.gui, ctermfg = colors.fg.cterm }, -- File names
 	OilLink = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm }, -- Symbolic links
+
+	-- mini.starter
+	MiniStarterHeader = { fg = colors.blue.gui, ctermfg = colors.blue.cterm }, -- Header text
+	MiniStarterItem = { fg = colors.fg.gui, ctermfg = colors.fg.cterm }, -- Item text
+	MiniStarterItemBullet = { fg = colors.yellow.gui, ctermfg = colors.yellow.cterm }, -- Bullet points
+	MiniStarterItemPrefix = { fg = colors.green.gui, ctermfg = colors.green.cterm }, -- Prefix text
+	MiniStarterSection = { fg = colors.magenta.gui, ctermfg = colors.magenta.cterm }, -- Section text
+	MiniStarterQuery = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm }, -- Query text
+	MiniStarterFooter = { fg = colors.red.gui, ctermfg = colors.red.cterm }, -- Footer text
 }
 
 M.colors = colors
