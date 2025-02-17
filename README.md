@@ -39,6 +39,8 @@ use {
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [oil.nvim](https://github.com/stevearc/oil.nvim)
 - [dressing.nvim](https://github.com/stevearc/dressing.nvim)
+- [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+- [which-key.nvim](https://github.com/folke/which-key.nvim)
 
 ## License
 
