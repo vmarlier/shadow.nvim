@@ -41,6 +41,7 @@ use {
 - [dressing.nvim](https://github.com/stevearc/dressing.nvim)
 - [mini.starter](https://github.com/echasnovski/mini.starter)
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+- [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 ## License
 
