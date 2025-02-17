@@ -289,6 +289,25 @@ local highlights = {
 	MiniStarterSection = { fg = colors.magenta.gui, ctermfg = colors.magenta.cterm }, -- Section text
 	MiniStarterQuery = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm }, -- Query text
 	MiniStarterFooter = { fg = colors.red.gui, ctermfg = colors.red.cterm }, -- Footer text
+
+	-- which-key.nvim
+	WhichKey = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm },
+	WhichKeySeparator = { fg = colors.black_bright.gui, ctermfg = colors.black_bright.cterm },
+	WhichKeyGroup = { fg = colors.blue.gui, ctermfg = colors.blue.cterm },
+	WhichKeyDesc = { fg = colors.green.gui, ctermfg = colors.green.cterm },
+	WhichKeyFloat = { bg = colors.black.gui, ctermbg = colors.black.cterm },
+	WhichKeyValue = { fg = colors.magenta.gui, ctermfg = colors.magenta.cterm },
+
+	-- NvimTree
+	NvimTreeNormal = { fg = colors.fg.gui, bg = colors.bg.gui, ctermfg = colors.fg.cterm, ctermbg = colors.bg.cterm },
+	NvimTreeFolderName = { fg = colors.blue.gui, ctermfg = colors.blue.cterm },
+	NvimTreeOpenedFolderName = { fg = colors.blue_bright.gui, ctermfg = colors.blue_bright.cterm },
+	NvimTreeEmptyFolderName = { fg = colors.black_bright.gui, ctermfg = colors.black_bright.cterm },
+	NvimTreeIndentMarker = { fg = colors.black_bright.gui, ctermfg = colors.black_bright.cterm },
+	NvimTreeVertSplit = { fg = colors.black.gui, bg = colors.bg.gui, ctermfg = colors.black.cterm, ctermbg = colors.bg.cterm },
+	NvimTreeRootFolder = { fg = colors.red.gui, ctermfg = colors.red.cterm },
+	NvimTreeSymlink = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm },
+	NvimTreeStatuslineNc = { fg = colors.black_bright.gui, bg = colors.bg.gui, ctermfg = colors.black_bright.cterm, ctermbg = colors.bg.cterm },
 }
 
 M.colors = colors
