@@ -42,6 +42,7 @@ use {
 - [mini.starter](https://github.com/echasnovski/mini.starter)
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [which-key.nvim](https://github.com/folke/which-key.nvim)
 
 ## License
 
