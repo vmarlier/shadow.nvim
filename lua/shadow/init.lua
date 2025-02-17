@@ -281,6 +281,14 @@ local highlights = {
 	OilFile = { fg = colors.fg.gui, ctermfg = colors.fg.cterm }, -- File names
 	OilLink = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm }, -- Symbolic links
 
+	-- which-key.nvim
+	WhichKey = { fg = colors.cyan.gui, ctermfg = colors.cyan.cterm },
+	WhichKeySeparator = { fg = colors.black_bright.gui, ctermfg = colors.black_bright.cterm },
+	WhichKeyGroup = { fg = colors.blue.gui, ctermfg = colors.blue.cterm },
+	WhichKeyDesc = { fg = colors.green.gui, ctermfg = colors.green.cterm },
+	WhichKeyFloat = { bg = colors.black.gui, ctermbg = colors.black.cterm },
+	WhichKeyValue = { fg = colors.magenta.gui, ctermfg = colors.magenta.cterm },
+
 	-- NvimTree
 	NvimTreeNormal = { fg = colors.fg.gui, bg = colors.bg.gui, ctermfg = colors.fg.cterm, ctermbg = colors.bg.cterm },
 	NvimTreeFolderName = { fg = colors.blue.gui, ctermfg = colors.blue.cterm },
